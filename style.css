@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #54C2E8, #2878DE);
+}
+
+#logo{
+    border-radius: 5px;
+    background-color: aliceblue;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    max-width: 600px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.473);
+    margin: auto;
+    border-radius: 10px;
+    height: 420px;
+    margin-top: 100px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+hr{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -31px;
+}
+
+p{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 15px;
+}
+
+form{
+    text-align: center;
+}
+
+
+fieldset{
+    border: none;
+}
+
+label{
+    display: block;
+    position: relative;
+    font-size: 19px;
+
+}
+
+input{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: 28px;
+}
+
+#botao{
+    border: none;
+    margin: auto;
+   
+}
+
+.botao{
+    background-color: #30D1C6;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(1, 37, 48, 0.829);
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.botao:hover{
+    background-color: #2dbbb1;
+}
